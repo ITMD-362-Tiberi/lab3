@@ -204,7 +204,6 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
 ol {
   display: flex;
   flex-wrap: wrap;
@@ -216,21 +215,22 @@ ol {
 li {
   margin-top: 2em;
   align-items: stretch;
-  
   background-color: rgb(128, 128, 128);
   color: white;
+  padding: 1em;
+  max-width: 80%;
 }
 
 h1 {
   margin-top: 2em;
-
   background-color: rgb(194, 194, 194);
+  padding: 1em;
 }
 
 p {
   margin-top: 2em;
-
   background-color: rgb(230, 230, 230);
+  padding: 1em;
 }
 
 label {
@@ -240,7 +240,7 @@ label {
 input {
   max-width: 70%;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   ol {
     flex-direction: row;
     justify-content: space-around;
