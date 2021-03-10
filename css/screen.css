@@ -227,6 +227,14 @@ p {
   margin-top: 2em;
 }
 
+label {
+  max-width: 70%;
+}
+
+input {
+  max-width: 70%;
+}
+
 @media screen and (min-width: 800px) {
   ol {
     flex-direction: row;
@@ -235,6 +243,14 @@ p {
 
   li {
     margin: 1em;
+  }
+
+  label {
+    max-width: unset;
+  }
+  
+  input {
+    max-width: unset;
   }
 }
 /* ===== STATE STYLES ======= */
